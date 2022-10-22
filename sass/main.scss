@@ -1,0 +1,286 @@
+@import "variable";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #4492f4;
+}
+
+.qol {
+  display: flex;
+  gap: 5px;
+}
+// birinchi barmoq
+.bir {
+  width: 40px;
+  height: 100px;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  animation: main $animatsia-vaqt infinite;
+
+  &::after {
+    content: "";
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite;
+  }
+
+  &::before {
+    content: "";
+    top: 20px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite;
+  }
+
+  .tirnoq {
+    content: "";
+    top: 65px;
+    left: 5px;
+    width: 30px;
+    height: 25px;
+    background: #4492f4;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+  }
+}
+// birinchi barmoq tugadi
+// Ikkinchi barmoq
+.ikki {
+  width: 40px;
+  height: 120px;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  top: -10px;
+  animation: main $animatsia-vaqt infinite 0.1s;
+
+  &::after {
+    content: "";
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite;
+  }
+
+  &::before {
+    content: "";
+    top: 20px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite;
+  }
+  .tirnoq {
+    content: "";
+    top: 85px;
+    left: 5px;
+    width: 30px;
+    height: 25px;
+    background: #4492f4;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+  }
+}
+// Ikkinchi barmoq tugadi
+// uchinchi barmoq
+.uch {
+  width: 40px;
+  height: 140px;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  top: -20px;
+  animation: main $animatsia-vaqt infinite 0.2s;
+
+  &::after {
+    content: "";
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite;
+  }
+
+  &::before {
+    content: "";
+    top: 20px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite;
+  }
+  .tirnoq {
+    content: "";
+    top: 105px;
+    left: 5px;
+    width: 30px;
+    height: 25px;
+    background: #4492f4;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+  }
+}
+
+// uchinchi barmoq tugadi
+
+// Tortinchi barmoq
+.tort {
+  width: 40px;
+  height: 120px;
+  background: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  top: -15px;
+  animation: main $animatsia-vaqt infinite 0.3s;
+
+  &::after {
+    content: "";
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite;
+  }
+
+  &::before {
+    content: "";
+    top: 20px;
+    left: 10px;
+    width: 20px;
+    height: 5px;
+    background: #4492f4;
+    border-radius: 5px;
+    position: absolute;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite;
+  }
+  .tirnoq {
+    content: "";
+    top: 85px;
+    left: 5px;
+    width: 30px;
+    height: 25px;
+    background: #4492f4;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+  }
+}
+// Tortinchi barmoq tugadi
+
+// beshinchi barmoq
+.besh {
+  width: 50px;
+  height: 40px;
+  background: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  top: -50px;
+  animation: bosh $animatsia-vaqt infinite 0.2s;
+
+  &::after {
+    content: "";
+    top: 10px;
+    left: 10px;
+    // width: 20px;
+    // height: 5px;
+
+    border-bottom: 10px solid #fff;
+    border-right: 15px solid transparent;
+    // border-top-right-radius: 10px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+  }
+}
+// beshinchi barmoq tugadi
+
+// Animatsiya
+@keyframes main {
+  from {
+    top: 20px;
+  }
+  to {
+    top: 25px;
+  }
+}
+
+@keyframes bosh {
+  from {
+    top: 50px;
+  }
+  to {
+    top: 70px;
+  }
+}
+
+@keyframes chiziq {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 5px;
+  }
+}
+@keyframes chiziq2 {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 15px;
+  }
+}
