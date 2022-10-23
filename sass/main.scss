@@ -21,7 +21,7 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: relative;
-  animation: main $animatsia-vaqt infinite 0.5s;
+  animation: main $animatsia-vaqt infinite 0.1s;
 
   &::after {
     content: "";
@@ -32,7 +32,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq $chiziq-animatsiya-vaqt infinite 0.5s;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite 0.1s;
   }
 
   &::before {
@@ -44,7 +44,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 0.5s;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 0.1s;
   }
 
   .tirnoq {
@@ -60,7 +60,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
-    animation: tirnoq $tirnoq infinite 0.5s;
+    animation: tirnoq $tirnoq infinite 0.1s;
   }
 }
 // birinchi barmoq tugadi
@@ -75,7 +75,7 @@
   border-bottom-right-radius: 15px;
   position: relative;
   top: -10px;
-  animation: main $animatsia-vaqt infinite 1s;
+  animation: main $animatsia-vaqt infinite 0.2s;
 
   &::after {
     content: "";
@@ -86,7 +86,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq $chiziq-animatsiya-vaqt infinite 1s;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite 0.2s;
   }
 
   &::before {
@@ -98,7 +98,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 1s;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 0.2s;
   }
   .tirnoq {
     content: "";
@@ -113,7 +113,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
-    animation: tirnoq $tirnoq infinite 1s;
+    animation: tirnoq $tirnoq infinite 0.2s;
   }
 }
 // Ikkinchi barmoq tugadi
@@ -128,7 +128,7 @@
   border-bottom-right-radius: 15px;
   position: relative;
   top: -20px;
-  animation: main $animatsia-vaqt infinite 1.5s;
+  animation: main $animatsia-vaqt infinite 0.3s;
 
   &::after {
     content: "";
@@ -139,7 +139,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq $chiziq-animatsiya-vaqt infinite 1.5s;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite 0.3s;
   }
 
   &::before {
@@ -151,7 +151,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 1.5s;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 0.3s;
   }
   .tirnoq {
     content: "";
@@ -166,7 +166,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
-    animation: tirnoq $tirnoq infinite 1.5s;
+    animation: tirnoq $tirnoq infinite 0.3s;
   }
 }
 
@@ -183,7 +183,7 @@
   border-bottom-right-radius: 15px;
   position: relative;
   top: -15px;
-  animation: main $animatsia-vaqt infinite 2s;
+  animation: main $animatsia-vaqt infinite 0.4s;
 
   &::after {
     content: "";
@@ -194,7 +194,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq $chiziq-animatsiya-vaqt infinite 2s;
+    animation: chiziq $chiziq-animatsiya-vaqt infinite 0.4s;
   }
 
   &::before {
@@ -206,7 +206,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 2s;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 0.4s;
   }
   .tirnoq {
     content: "";
@@ -221,7 +221,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
-    animation: tirnoq $tirnoq infinite 2s;
+    animation: tirnoq $tirnoq infinite 0.4s;
   }
 }
 // Tortinchi barmoq tugadi
@@ -236,7 +236,7 @@
   position: relative;
   top: -50px;
   left: 10px;
-  animation: bosh $animatsia-vaqt infinite;
+  animation: bosh $animatsia-vaqt infinite 0.5s;
 
   &::after {
     content: "";
