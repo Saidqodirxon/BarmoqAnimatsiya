@@ -7,6 +7,7 @@
 }
 
 .qol {
+  padding: 100px;
   display: flex;
   gap: 5px;
 }
@@ -59,6 +60,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
+    animation: tirnoq $tirnoq infinite;
   }
 }
 // birinchi barmoq tugadi
@@ -111,6 +113,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
+    animation: tirnoq $tirnoq infinite;
   }
 }
 // Ikkinchi barmoq tugadi
@@ -163,6 +166,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
+    animation: tirnoq $tirnoq infinite;
   }
 }
 
@@ -202,7 +206,7 @@
     background: #4492f4;
     border-radius: 5px;
     position: absolute;
-    animation: chiziq2 $chiziq-animatsiya-vaqt infinite;
+    animation: chiziq2 $chiziq-animatsiya-vaqt infinite 0.5s;
   }
   .tirnoq {
     content: "";
@@ -217,6 +221,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: absolute;
+    animation: tirnoq $tirnoq infinite;
   }
 }
 // Tortinchi barmoq tugadi
@@ -230,6 +235,7 @@
   border-bottom-right-radius: 25px;
   position: relative;
   top: -50px;
+  left: 10px;
   animation: bosh $animatsia-vaqt infinite 0.2s;
 
   &::after {
@@ -252,19 +258,20 @@
 // Animatsiya
 @keyframes main {
   from {
-    top: 20px;
-  }
-  to {
-    top: 25px;
+    transform: rotateX(50deg);
+    transform-origin: 100% 0;
   }
 }
 
 @keyframes bosh {
   from {
-    top: 50px;
+    left: 90deg;
+    top: 0;
   }
   to {
-    top: 70px;
+    transform: rotateY(90deg);
+    transform: translateX(-5px);
+    top: 10px;
   }
 }
 
