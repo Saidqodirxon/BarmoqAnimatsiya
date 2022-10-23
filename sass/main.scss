@@ -236,7 +236,7 @@
   position: relative;
   top: -50px;
   left: 10px;
-  animation: bosh $animatsia-vaqt infinite 0.2s;
+  animation: bosh $animatsia-vaqt infinite 0.4s;
 
   &::after {
     content: "";
@@ -290,4 +290,13 @@
   to {
     top: 15px;
   }
+}
+
+@keyframes tirnoq {
+  from {
+    top: px;
+  }
+  // to {
+  //   top: 15px;
+  // }
 }
