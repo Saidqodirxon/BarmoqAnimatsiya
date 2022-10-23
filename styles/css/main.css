@@ -20,8 +20,8 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: relative;
-  -webkit-animation: main 3s infinite;
-          animation: main 3s infinite;
+  -webkit-animation: main 2s infinite 0.5s;
+          animation: main 2s infinite 0.5s;
 }
 .bir::after {
   content: "";
@@ -32,8 +32,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq 3s infinite;
-          animation: chiziq 3s infinite;
+  -webkit-animation: chiziq 2s infinite 0.5s;
+          animation: chiziq 2s infinite 0.5s;
 }
 .bir::before {
   content: "";
@@ -44,8 +44,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq2 3s infinite;
-          animation: chiziq2 3s infinite;
+  -webkit-animation: chiziq2 2s infinite 0.5s;
+          animation: chiziq2 2s infinite 0.5s;
 }
 .bir .tirnoq {
   content: "";
@@ -59,8 +59,8 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
-  -webkit-animation: tirnoq 3s infinite;
-          animation: tirnoq 3s infinite;
+  -webkit-animation: tirnoq 2s infinite 0.5s;
+          animation: tirnoq 2s infinite 0.5s;
 }
 
 .ikki {
@@ -73,8 +73,8 @@
   border-bottom-right-radius: 15px;
   position: relative;
   top: -10px;
-  -webkit-animation: main 3s infinite 0.2s;
-          animation: main 3s infinite 0.2s;
+  -webkit-animation: main 2s infinite 1s;
+          animation: main 2s infinite 1s;
 }
 .ikki::after {
   content: "";
@@ -85,8 +85,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq 3s infinite 0.2s;
-          animation: chiziq 3s infinite 0.2s;
+  -webkit-animation: chiziq 2s infinite 1s;
+          animation: chiziq 2s infinite 1s;
 }
 .ikki::before {
   content: "";
@@ -97,8 +97,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq2 3s infinite 0.2s;
-          animation: chiziq2 3s infinite 0.2s;
+  -webkit-animation: chiziq2 2s infinite 1s;
+          animation: chiziq2 2s infinite 1s;
 }
 .ikki .tirnoq {
   content: "";
@@ -112,8 +112,8 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
-  -webkit-animation: tirnoq 3s infinite 0.2s;
-          animation: tirnoq 3s infinite 0.2s;
+  -webkit-animation: tirnoq 2s infinite 1s;
+          animation: tirnoq 2s infinite 1s;
 }
 
 .uch {
@@ -126,8 +126,8 @@
   border-bottom-right-radius: 15px;
   position: relative;
   top: -20px;
-  -webkit-animation: main 3s infinite 0.4s;
-          animation: main 3s infinite 0.4s;
+  -webkit-animation: main 2s infinite 1.5s;
+          animation: main 2s infinite 1.5s;
 }
 .uch::after {
   content: "";
@@ -138,8 +138,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq 3s infinite 0.4s;
-          animation: chiziq 3s infinite 0.4s;
+  -webkit-animation: chiziq 2s infinite 1.5s;
+          animation: chiziq 2s infinite 1.5s;
 }
 .uch::before {
   content: "";
@@ -150,8 +150,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq2 3s infinite 0.4s;
-          animation: chiziq2 3s infinite 0.4s;
+  -webkit-animation: chiziq2 2s infinite 1.5s;
+          animation: chiziq2 2s infinite 1.5s;
 }
 .uch .tirnoq {
   content: "";
@@ -165,8 +165,8 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
-  -webkit-animation: tirnoq 3s infinite 0.4s;
-          animation: tirnoq 3s infinite 0.4s;
+  -webkit-animation: tirnoq 2s infinite 1.5s;
+          animation: tirnoq 2s infinite 1.5s;
 }
 
 .tort {
@@ -179,8 +179,8 @@
   border-bottom-right-radius: 15px;
   position: relative;
   top: -15px;
-  -webkit-animation: main 3s infinite 0.6s;
-          animation: main 3s infinite 0.6s;
+  -webkit-animation: main 2s infinite 2s;
+          animation: main 2s infinite 2s;
 }
 .tort::after {
   content: "";
@@ -191,8 +191,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq 3s infinite 0.6s;
-          animation: chiziq 3s infinite 0.6s;
+  -webkit-animation: chiziq 2s infinite 2s;
+          animation: chiziq 2s infinite 2s;
 }
 .tort::before {
   content: "";
@@ -203,8 +203,8 @@
   background: #4492f4;
   border-radius: 5px;
   position: absolute;
-  -webkit-animation: chiziq2 3s infinite 0.6s;
-          animation: chiziq2 3s infinite 0.6s;
+  -webkit-animation: chiziq2 2s infinite 2s;
+          animation: chiziq2 2s infinite 2s;
 }
 .tort .tirnoq {
   content: "";
@@ -218,8 +218,8 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
-  -webkit-animation: tirnoq 3s infinite 0.6s;
-          animation: tirnoq 3s infinite 0.6s;
+  -webkit-animation: tirnoq 2s infinite 2s;
+          animation: tirnoq 2s infinite 2s;
 }
 
 .besh {
@@ -231,8 +231,8 @@
   position: relative;
   top: -50px;
   left: 10px;
-  -webkit-animation: bosh 3s infinite 0.8s;
-          animation: bosh 3s infinite 0.8s;
+  -webkit-animation: bosh 2s infinite;
+          animation: bosh 2s infinite;
 }
 .besh::after {
   content: "";
